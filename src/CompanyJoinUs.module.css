@@ -1,0 +1,59 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.inputGroup input,
+.inputGroup select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.verificationInputGroup {
+  display: flex;
+  align-items: center;
+}
+
+.verificationInputGroup input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.consent-container {
+  margin-top: 20px;
+}
+
+.consent-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.join-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.join-button:hover {
+  background-color: #0056b3;
+}

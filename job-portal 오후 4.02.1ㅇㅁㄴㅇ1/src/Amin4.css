@@ -1,0 +1,32 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+hr {
+    margin: 20px 0;
+}

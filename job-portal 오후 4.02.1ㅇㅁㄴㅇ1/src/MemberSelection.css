@@ -1,0 +1,62 @@
+.member-selection {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .selection-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .member-type {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .member-type img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .join-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .join-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-icons img {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .existing-member {
+    margin-top: 30px;
+  }
+  
+  .login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .login-button:hover {
+    background-color: #218838;
+  }
+  

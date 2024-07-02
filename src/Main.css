@@ -1,0 +1,196 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 0 15%; /* 좌우에 15% 마진 추가 */
+}
+
+.weather-row, .post-row, .post-row1, .post-row2, .alt-weather-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.weather-item, .post-item, .alt-weather-item {
+  flex: 1;
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flip { 
+  width: 300px;
+  height: 250px;
+  perspective: 1100px;
+}
+
+.card {
+  width: 100%; 
+  height: 100%; 
+  position: relative;
+  transition: .4s;
+  transform-style: preserve-3d;
+}	
+
+.front, .back {
+  position: absolute;
+  width: 100%; 
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front {
+  background: #fff; 
+}
+
+.back { 
+  background: #fff; 
+  transform: rotateY(180deg);
+}
+
+.flip:hover .card {
+  transform: rotateY(180deg);
+}
+
+.wi {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.small-temp, .post-count, .alt-small-temp {
+  font-size: 1.5em;
+  color: #27ae60;
+}
+
+.CF {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.CF img {
+  width: 40%; /* 이미지 크기를 줄이기 위해 width를 40%로 설정 */
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.tag {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tag1 {
+  margin-right: auto;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.tag2 {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #3498db;
+  cursor: pointer;
+}
+
+.tag2:hover {
+  text-decoration: underline;
+}
+
+/* 추가된 스타일 */
+.map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map {
+  height: 200px;
+  width: 100%;
+}
+
+.reset-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #2980b9;
+}
+
+.weather-item, .post-item, .alt-weather-item {
+  flex: 1;
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather-label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.wi {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.small-temp, .post-count, .alt-small-temp {
+  font-size: 1.5em;
+  color: #27ae60;
+}
+
+.CF {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.CF img {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.tag {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tag1 {
+  margin-right: auto;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.tag2 {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #3498db;
+  cursor: pointer;
+}
+
+.tag2:hover {
+  text-decoration: underline;
+}

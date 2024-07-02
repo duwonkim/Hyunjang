@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+/* 기본 body 설정 */
+body {
+    font-family: 'Noto Sans KR', sans-serif; /* 한글 폰트 설정 */
+}
+
+/* 헤더 스타일 설정 */
+.header {
+    display: flex; /* 플렉스 박스 사용 */
+    align-items: center; /* 세로축 가운데 정렬 */
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd; /* 아래쪽 테두리 설정 */
+    background-color: #f9f9f9; /* 배경색 설정 */
+}
+
+/* 로고 스타일 설정 */
+.logo {
+    flex: 0 1 auto; /* 로고의 크기를 고정 */
+}
+
+/* 로고 이미지 스타일 설정 */
+.logo img {
+    height: 40px; /* 이미지 높이 설정 */
+    margin: 0 10px;
+}
+
+/* 검색 바 스타일 설정 */
+.search-bar {
+    max-width: 400px; /* 최대 너비 설정 */
+    width: 100%; /* 부모 요소의 너비에 맞춤 */
+}
+
+/* 검색 입력란 스타일 설정 */
+.search-bar input {
+    width: calc(100% - 50px); /* 버튼의 너비를 뺀 나머지 너비 설정 */
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 20px 0 0 20px; /* 좌측 둥근 테두리 설정 */
+    outline: none;
+    box-sizing: border-box; /* padding과 border를 포함한 전체 높이 계산 */
+    height: 36px; /* 검색 입력란의 높이를 명시적으로 설정 */
+    display: inline-block; /* 인라인 블록 요소로 설정 */
+    vertical-align: middle; /* 수직 정렬 설정 */
+}
+
+/* 검색 버튼 스타일 설정 */
+.search-bar button {
+    width: 50px; /* 버튼의 너비 설정 */
+    padding: 0;
+    border: 1px solid #ddd;
+    border-left: none; /* 좌측 테두리 제거 */
+    background-color: #ff4500; /* 배경색 설정 */
+    color: white;
+    border-radius: 0 20px 20px 0; /* 우측 둥근 테두리 설정 */
+    cursor: pointer;
+    transition: background-color 0.3s; /* 배경색 변화에 대한 트랜지션 설정 */
+    height: 36px; /* 버튼의 높이를 검색 입력란과 동일하게 설정 */
+    display: inline-block; /* 인라인 블록 요소로 설정 */
+    vertical-align: middle; /* 수직 정렬 설정 */
+}
+/* 네비게이션 스타일 설정 */
+.nav {
+    flex: 2 1 auto; /* 네비게이션이 가능한 공간을 차지하도록 설정 */
+    display: flex; /* 플렉스 박스 사용 */
+    justify-content: center; /* 네비게이션을 가운데 정렬 */
+}
+
+/* 네비게이션 리스트 스타일 설정 */
+.nav ul {
+    margin: 0;
+    display: flex; /* 플렉스 박스 사용 */
+    list-style: none; /* 기본 리스트 스타일 제거 */
+    padding: 0;
+}
+
+/* 네비게이션 리스트 아이템 스타일 설정 */
+.nav ul li {
+    margin: 0 10px;
+    position: relative;
+}
+
+/* 네비게이션 링크 스타일 설정 */
+.nav ul li a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: black;
+    font-weight: 700; /* 글씨를 더 굵게 설정 */
+    transition: color 0.3s; /* 글씨 색 변화에 대한 트랜지션 설정 */
+}
+
+/* 네비게이션 링크 호버 효과 */
+.nav ul li a:hover {
+    color: #ff4500; /* 글씨 색 변화 */
+}
+
+/* 사용자 옵션 스타일 설정 */
+.user-options {
+    display: flex; /* 플렉스 박스 사용 */
+    align-items: center; /* 세로축 가운데 정렬 */
+    margin-left: 10px; /* 오른쪽으로 밀기 위한 auto 마진 제거 */
+    flex: 0 1 auto; /* 사용자 옵션의 크기를 고정 */
+}
+
+/* 사용자 옵션 링크와 버튼 스타일 설정 */
+.user-options a, .user-options button {
+    margin-left: 10px;
+    text-decoration: none; /* 밑줄 제거 */
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* 사용자 옵션 버튼 스타일 설정 */
+.user-options button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* 둥근 테두리 설정 */
+    background-color: white;
+    transition: background-color 0.3s; /* 배경색 변화에 대한 트랜지션 설정 */
+}
+
+/* 사용자 옵션 버튼 호버 효과 */
+.user-options button:hover {
+    background-color: #f0f0f0; /* 배경색 변화 */
+}
+
+/* 메인 메뉴 스타일 설정 */
+.h_menu {
+    float: left;
+    font-weight: bold; /* 글씨를 굵게 설정 */
+    position: relative;
+}
+
+/* 서브 메뉴 스타일 설정 */
+.menu_pan {
+    width: 100vw; /* 화면 전체 너비로 설정 */
+    background: #f9f9f9;
+    position: fixed; /* 화면을 기준으로 위치 설정 */
+    left: 0;
+    top: 65px; /* 헤더 바로 아래에 위치하도록 설정, 필요에 따라 조정 */
+    z-index: 999; /* 다른 요소들보다 앞에 표시되도록 설정 */
+    padding: 10px 50px; /* 좌우 패딩 추가 */
+    font-size: 15px;
+    box-sizing: border-box; /* 패딩과 테두리를 포함한 전체 너비 계산 */
+    border-top: 1px solid #ddd; /* 아래쪽 테두리 설정 */
+    border-bottom: 1px solid #ddd; /* 아래쪽 테두리 설정 */
+}
+
+/* 서브 메뉴 카테고리 스타일 설정 */
+.menu_category {
+    float: left;
+    margin-bottom: 30px;
+}
+
+/* 카테고리 제목 스타일 설정 */
+.category-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 카테고리 스타일 설정 */
+.category {
+    padding: 9px 0px;
+    margin-right: 100px;
+}
+
+/* 카테고리 스타일 설정 */
+.category1 {
+    color: #ff4500;
+    padding: 9px 0px;
+    margin-right: 100px;
+}
+
+/* 하루 알바 스타일 설정 */
+.daily-jobs, .daily-jobs-count {
+    display: flex;
+    gap: 10px;
+}
+
+/* 강조 텍스트 스타일 설정 */
+.highlight {
+    color: #ff4500;
+    font-weight: bold;
+}
+
+/* 카테고리 호버 효과 */
+.category:hover {
+    text-decoration: underline; /* 밑줄 표시 */
+}
+
+/* 메인 메뉴 호버 시 서브 메뉴 표시 */
+.h_menu li:hover .menu_pan {
+    display: block; /* 서브 메뉴 표시 */
+}

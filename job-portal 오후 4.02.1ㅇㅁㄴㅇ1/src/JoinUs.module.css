@@ -1,0 +1,58 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input,
+  .verification-input-group button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .verification-input-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .verification-input-group button {
+    flex: none;
+    width: 100px;
+  }
+  
+  .consent-container {
+    margin-top: 20px;
+  }
+  
+  .consent-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .join-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .join-button:hover {
+    background-color: #45a049;
+  }
+  

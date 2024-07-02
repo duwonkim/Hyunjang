@@ -1,0 +1,70 @@
+.memberSelection {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.selectionContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.memberType {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.memberType img {
+  width: 100px;
+  height: 100px;
+}
+
+.memberType h2 {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.memberType p {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.joinButton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.personal {
+  background-color: #007bff; /* 개인회원 색상 */
+}
+
+.company {
+  background-color: #007bff; /* 기업회원 색상 */
+}
+
+.existingMember {
+  margin-top: 20px;
+}
+
+.loginButton {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+}

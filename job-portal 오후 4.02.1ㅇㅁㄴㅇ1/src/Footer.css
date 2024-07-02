@@ -1,0 +1,85 @@
+.footer {
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    width: 100%;
+    max-width: 100vw; /* 화면을 넘어가지 않도록 최대 너비 설정 */
+    box-sizing: border-box; /* 패딩과 테두리를 포함한 전체 너비 계산 */
+    z-index: 1000; /* 다른 콘텐츠 위에 표시 */
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-links a:hover {
+    color: #ff4500;
+}
+
+.footer-links a.bold-text {
+    font-weight: 700; /* 글씨를 더 굵게 설정 */
+}
+
+.footer-info {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0 285px; /* 좌우 여백 추가 */
+}
+
+.customer-service {
+    display: flex;
+    align-items: center;
+}
+
+.customer-service h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.customer-service p {
+    margin: 0 0 0 10px; /* 왼쪽 여백 추가 */
+    font-size: 14px;
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-buttons button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.footer-buttons button:hover {
+    background-color: #f0f0f0;
+}
+
+.footer-cert {
+    background-color: #e9ecef;
+}
+
+.footer-cert:hover {
+    background-color: #dcdfe2;
+}

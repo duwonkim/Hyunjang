@@ -1,0 +1,136 @@
+/* Login.css */
+
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-logo img {
+    width: 150px;
+    margin: 0 10px;
+  }
+  
+  .login-form {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .tabs button {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    background-color: #e0e0e0;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .tabs button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .options label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .options label input {
+    margin-right: 5px;
+  }
+  
+  .ip-security {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ip-security label {
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .help-links {
+    text-align: center;
+  }
+  
+  .help-links a {
+    color: #000; /* 기본 링크 색상: 검정색 */
+    text-decoration: none;
+  }
+  
+  .help-links a:visited {
+    color: #000; /* 방문한 링크 색상: 검정색 */
+  }
+  
+  .help-links span {
+    margin: 0 5px;
+  }
+  
+  .help-links a.join-link {
+    color: #007bff; /* 회원가입 링크 색상: 파란색 */
+  }
+  
+  .help-links a.join-link:visited {
+    color: #007bff; /* 방문한 회원가입 링크 색상: 파란색 */
+  }
+  
